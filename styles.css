@@ -1,0 +1,25 @@
+html{
+    background-color: rgb(53, 54, 58);
+}
+
+.dancingGifDisplay {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgGif{
+    height: 60%;
+    width: 60%;
+}
+
+#mainButton {
+    height: 5em;
+    width: 10em;
+    background-color: rgb(200, 201, 206);
+}
