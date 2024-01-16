@@ -16,6 +16,13 @@ function revealElements(){
       }
 }
 
+function returnMainState(){
+    document.getElementById('buttonHolder').hidden = false
+    mainButton.hidden = false
+    hideElements()
+
+}
+
 const mainButton = document.getElementById('mainButton') 
  
 mainButton.addEventListener('click', e => { 
@@ -30,3 +37,6 @@ mainButton.addEventListener('click', e => {
     setTimeout(() => { revealElements() }, 2600);
     
 })
+
+document.getElementById("audioController").addEventListener("ended", returnMainState, false);
+
